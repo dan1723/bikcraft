@@ -52,7 +52,7 @@
 .orcamento-produto label {
   font: 400 1rem/1.5 "Poppins", sans-serif;
   color: var(--cor-3);
-  background-color: var(--cor-10);
+  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 20px left 20px;
   padding: 12px 16px;
   border-radius: 4px;
   cursor: pointer;
@@ -108,7 +108,7 @@
 
 .orcamento-dados {
   border-radius: 5px 0 0 5px;
-  background: var(--cor-0);
+  background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 20px left 20px
 }
 
 .orcamento-conteudo {
@@ -166,6 +166,7 @@
   }
   .orcamento-produto {
     border-radius: 5px 5px 0 0;
+    background: var(--cor-12);
   }
 }
 
